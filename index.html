@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela Login</title>
     <link rel="stylesheet" href="estilos/stylefirst.css">
+    <link rel="stylesheet" href="estilos/devices.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
@@ -13,25 +14,22 @@
 
         <h1>LOGIN</h1>
 
-        <form action="cadastro.php" method="post" autocomplete="on">
-
+    
+            <form action="cadastro.php" method="post" autocomplete="on">
+                    <p class="input">
+                        <label for="iemail"><i class="fa-solid fa-user"></i>
+            
+                            <input type="email" name="iemail" id="iemail" placeholder="E-mail">
+                        </label>
+                    </p>
                 <p class="input">
-                    <label for="iemail"><i class="fa-solid fa-user"></i>
-                        
-                        <input type="email" name="iemail" id="iemail" placeholder="usúario@gmail.com">
+                    <label for="ipassword"><i class="fa-solid fa-key"></i>
+                        <input type="password" name="ipassword" id="ipassword" placeholder="Senha">
                     </label>
                 </p>
-
-            <p class="input">
-                <label for="ipassword"><i class="fa-solid fa-key"></i>
-
-                    <input type="password" name="ipassword" id="ipassword" placeholder="Senha">
-                </label>
-            </p>
-
-            <button type="submit">Entrar</button>
-            <a href="#">Esqueci a Senha <i class="fa-solid fa-lock"></i></a>
-        </form>
+                <button type="submit">Entrar</button>
+                <a class="link" href="#">Esqueci a Senha</a>
+            </form>
     </div>
 </body>
 </html>

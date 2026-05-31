@@ -80,5 +80,18 @@ button:hover {
 }
 
 a {
-    
+    display: block;
+    width: 280px;
+    height: 40px;
+    margin: 10px;
+    text-decoration: none;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(124, 148, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
